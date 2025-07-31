@@ -1,0 +1,101 @@
+services:
+  redis:
+    container_name: redis
+    image: redis:7-alpine
+    networks:
+      - main
+    ports:
+      - "6379:6379"
+    restart: always
+    
+  postgres:
+    container_name: postgres
+    image: postgres:14-alpine
+    environment:
+      - POSTGRES_DB=MarketShop_RestApi
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=newpassword
+      
+    ports:
+      - "5432:5432"
+    networks:
+      - main
+    restart: always
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+      
+  celery_worker:
+    container_name: celery_worker
+    command: celery -A MarketShop_RestApi worker -l info
+    depends_on:
+      - app
+      - redis
+      - postgres
+      
+    env_file:
+      - ./.env
+      
+    build: .
+    environment:
+     - C_FORCE_ROOT="true"
+    networks:
+      - main
+    restart:
+      always
+      
+  app:
+    build: .
+    command: gunicorn MarketShop_RestApi.wsgi -b 0.0.0.0:8000
+
+    container_name: app
+    volumes:
+      - .:/src/
+    depends_on:
+      - redis
+      - postgres
+      
+    env_file:
+      - ./.env
+      
+    expose:
+      - "8000"
+    networks:
+      - main
+    restart:
+      always
+    
+  celery_beat:
+    container_name: celery_beat
+    build: .
+    command: celery -A MarketShop_RestApi beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
+    
+    volumes:
+      - .:/src/
+     
+      - celery_beat_data:/var/run/celery
+      
+    env_file:
+      - ./.env
+      
+    depends_on:
+      - redis
+      - postgres
+      - app
+    networks:
+      - main
+    restart: always
+    
+networks:
+ main:
+   driver: bridge
+ 
+volumes:
+ pg_data: {}
+ redis_data: {}
+ celery_beat_data: {}
+ media_volume: {}
+ static_volume: {}
+ 
+ 
+ 
+      

@@ -1,0 +1,1755 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2025-05-28T13:50:18.278Z",
+        "user": 3,
+        "content_type": 19,
+        "object_id": "1",
+        "object_repr": "every minute",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2025-05-28T13:52:28.264Z",
+        "user": 3,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "remove items cart: every minute",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2025-05-28T13:55:03.071Z",
+        "user": 3,
+        "content_type": 6,
+        "object_id": "1",
+        "object_repr": "کیک و کلوچه",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2025-05-28T13:55:10.261Z",
+        "user": 3,
+        "content_type": 6,
+        "object_id": "2",
+        "object_repr": "نوشیدنی",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2025-05-28T13:56:52.883Z",
+        "user": 3,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "کلوچه سیمرغ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u062a\\u0635\\u0648\\u06cc\\u0631\", \"object\": \"None\"}}, {\"added\": {\"name\": \"\\u062a\\u0635\\u0648\\u06cc\\u0631\", \"object\": \"None\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2025-05-28T13:58:37.682Z",
+        "user": 3,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "شیرموز",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u062a\\u0635\\u0648\\u06cc\\u0631\", \"object\": \"None\"}}, {\"added\": {\"name\": \"\\u062a\\u0635\\u0648\\u06cc\\u0631\", \"object\": \"None\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2025-05-28T17:36:14.242Z",
+        "user": 3,
+        "content_type": 20,
+        "object_id": "2",
+        "object_repr": "celery.backend_cleanup: 0 4 * * * (m/h/dM/MY/d) UTC",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Task (registered)\", \"Start Datetime\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2025-05-28T17:38:12.379Z",
+        "user": 3,
+        "content_type": 20,
+        "object_id": "2",
+        "object_repr": "celery.backend_cleanup: 0 4 * * * (m/h/dM/MY/d) UTC",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Task (registered)\", \"Task (custom)\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2025-05-28T17:38:22.847Z",
+        "user": 3,
+        "content_type": 20,
+        "object_id": "2",
+        "object_repr": "celery.backend_cleanup: 0 4 * * * (m/h/dM/MY/d) UTC",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2025-05-28T19:49:51.574Z",
+        "user": 3,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "remove items cart: 0 4 * * * (m/h/dM/MY/d) UTC",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Task (registered)\", \"Interval Schedule\", \"Crontab Schedule\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2025-05-28T19:51:18.282Z",
+        "user": 3,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "remove items cart: 0 4 * * * (m/h/dM/MY/d) UTC",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Task (registered)\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2025-05-29T12:49:32.226Z",
+        "user": 3,
+        "content_type": 19,
+        "object_id": "1",
+        "object_repr": "every minute",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2025-05-29T12:49:59.185Z",
+        "user": 3,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "remove items cart: every minute",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Task (registered)\", \"Task (custom)\", \"Interval Schedule\", \"Crontab Schedule\", \"Start Datetime\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2025-05-29T13:27:00.724Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "5",
+        "object_repr": "Order neda",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2025-05-29T13:27:00.724Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "4",
+        "object_repr": "Order neda",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2025-05-29T13:27:00.724Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "3",
+        "object_repr": "Order neda",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2025-05-29T13:27:00.724Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "Order neda",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2025-05-29T13:27:00.724Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Order neda",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 4,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 4,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 4,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 4,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 5,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 5,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 5,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 5,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add دسته بندی",
+        "content_type": 6,
+        "codename": "add_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change دسته بندی",
+        "content_type": 6,
+        "codename": "change_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete دسته بندی",
+        "content_type": 6,
+        "codename": "delete_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view دسته بندی",
+        "content_type": 6,
+        "codename": "view_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add محصول",
+        "content_type": 7,
+        "codename": "add_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change محصول",
+        "content_type": 7,
+        "codename": "change_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete محصول",
+        "content_type": 7,
+        "codename": "delete_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view محصول",
+        "content_type": 7,
+        "codename": "view_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add تصویر",
+        "content_type": 8,
+        "codename": "add_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change تصویر",
+        "content_type": 8,
+        "codename": "change_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete تصویر",
+        "content_type": 8,
+        "codename": "delete_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view تصویر",
+        "content_type": 8,
+        "codename": "view_image"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add کامنت",
+        "content_type": 9,
+        "codename": "add_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change کامنت",
+        "content_type": 9,
+        "codename": "change_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete کامنت",
+        "content_type": 9,
+        "codename": "delete_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view کامنت",
+        "content_type": 9,
+        "codename": "view_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add تیکت",
+        "content_type": 10,
+        "codename": "add_ticket"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change تیکت",
+        "content_type": 10,
+        "codename": "change_ticket"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete تیکت",
+        "content_type": 10,
+        "codename": "delete_ticket"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view تیکت",
+        "content_type": 10,
+        "codename": "view_ticket"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add پاسخ تیکت",
+        "content_type": 11,
+        "codename": "add_ticketresponse"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change پاسخ تیکت",
+        "content_type": 11,
+        "codename": "change_ticketresponse"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete پاسخ تیکت",
+        "content_type": 11,
+        "codename": "delete_ticketresponse"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view پاسخ تیکت",
+        "content_type": 11,
+        "codename": "view_ticketresponse"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add اکانت",
+        "content_type": 12,
+        "codename": "add_usershop"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change اکانت",
+        "content_type": 12,
+        "codename": "change_usershop"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete اکانت",
+        "content_type": 12,
+        "codename": "delete_usershop"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view اکانت",
+        "content_type": 12,
+        "codename": "view_usershop"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add سبد خرید",
+        "content_type": 13,
+        "codename": "add_cart"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change سبد خرید",
+        "content_type": 13,
+        "codename": "change_cart"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete سبد خرید",
+        "content_type": 13,
+        "codename": "delete_cart"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view سبد خرید",
+        "content_type": 13,
+        "codename": "view_cart"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add آیتم سبد خرید",
+        "content_type": 14,
+        "codename": "add_cartitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change آیتم سبد خرید",
+        "content_type": 14,
+        "codename": "change_cartitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete آیتم سبد خرید",
+        "content_type": 14,
+        "codename": "delete_cartitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view آیتم سبد خرید",
+        "content_type": 14,
+        "codename": "view_cartitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add سفارش",
+        "content_type": 15,
+        "codename": "add_orders"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change سفارش",
+        "content_type": 15,
+        "codename": "change_orders"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete سفارش",
+        "content_type": 15,
+        "codename": "delete_orders"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view سفارش",
+        "content_type": 15,
+        "codename": "view_orders"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add آیتم سفارش",
+        "content_type": 16,
+        "codename": "add_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change آیتم سفارش",
+        "content_type": 16,
+        "codename": "change_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete آیتم سفارش",
+        "content_type": 16,
+        "codename": "delete_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view آیتم سفارش",
+        "content_type": 16,
+        "codename": "view_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add تخفیف",
+        "content_type": 17,
+        "codename": "add_discountpercentage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change تخفیف",
+        "content_type": 17,
+        "codename": "change_discountpercentage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete تخفیف",
+        "content_type": 17,
+        "codename": "delete_discountpercentage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view تخفیف",
+        "content_type": 17,
+        "codename": "view_discountpercentage"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add crontab",
+        "content_type": 18,
+        "codename": "add_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change crontab",
+        "content_type": 18,
+        "codename": "change_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete crontab",
+        "content_type": 18,
+        "codename": "delete_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view crontab",
+        "content_type": 18,
+        "codename": "view_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add interval",
+        "content_type": 19,
+        "codename": "add_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change interval",
+        "content_type": 19,
+        "codename": "change_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete interval",
+        "content_type": 19,
+        "codename": "delete_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view interval",
+        "content_type": 19,
+        "codename": "view_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+        "name": "Can add periodic task",
+        "content_type": 20,
+        "codename": "add_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+        "name": "Can change periodic task",
+        "content_type": 20,
+        "codename": "change_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+        "name": "Can delete periodic task",
+        "content_type": 20,
+        "codename": "delete_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+        "name": "Can view periodic task",
+        "content_type": 20,
+        "codename": "view_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+        "name": "Can add periodic task track",
+        "content_type": 21,
+        "codename": "add_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+        "name": "Can change periodic task track",
+        "content_type": 21,
+        "codename": "change_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+        "name": "Can delete periodic task track",
+        "content_type": 21,
+        "codename": "delete_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+        "name": "Can view periodic task track",
+        "content_type": 21,
+        "codename": "view_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+        "name": "Can add solar event",
+        "content_type": 22,
+        "codename": "add_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+        "name": "Can change solar event",
+        "content_type": 22,
+        "codename": "change_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+        "name": "Can delete solar event",
+        "content_type": 22,
+        "codename": "delete_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+        "name": "Can view solar event",
+        "content_type": 22,
+        "codename": "view_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+        "name": "Can add clocked",
+        "content_type": 23,
+        "codename": "add_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+        "name": "Can change clocked",
+        "content_type": 23,
+        "codename": "change_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+        "name": "Can delete clocked",
+        "content_type": 23,
+        "codename": "delete_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+        "name": "Can view clocked",
+        "content_type": 23,
+        "codename": "view_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 93,
+    "fields": {
+        "name": "Can add task result",
+        "content_type": 24,
+        "codename": "add_taskresult"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 94,
+    "fields": {
+        "name": "Can change task result",
+        "content_type": 24,
+        "codename": "change_taskresult"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 95,
+    "fields": {
+        "name": "Can delete task result",
+        "content_type": 24,
+        "codename": "delete_taskresult"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 96,
+    "fields": {
+        "name": "Can view task result",
+        "content_type": 24,
+        "codename": "view_taskresult"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 97,
+    "fields": {
+        "name": "Can add chord counter",
+        "content_type": 25,
+        "codename": "add_chordcounter"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 98,
+    "fields": {
+        "name": "Can change chord counter",
+        "content_type": 25,
+        "codename": "change_chordcounter"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 99,
+    "fields": {
+        "name": "Can delete chord counter",
+        "content_type": 25,
+        "codename": "delete_chordcounter"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 100,
+    "fields": {
+        "name": "Can view chord counter",
+        "content_type": 25,
+        "codename": "view_chordcounter"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 101,
+    "fields": {
+        "name": "Can add group result",
+        "content_type": 26,
+        "codename": "add_groupresult"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 102,
+    "fields": {
+        "name": "Can change group result",
+        "content_type": 26,
+        "codename": "change_groupresult"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 103,
+    "fields": {
+        "name": "Can delete group result",
+        "content_type": 26,
+        "codename": "delete_groupresult"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 104,
+    "fields": {
+        "name": "Can view group result",
+        "content_type": 26,
+        "codename": "view_groupresult"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "shop",
+        "model": "category"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "shop",
+        "model": "product"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "shop",
+        "model": "image"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "shop",
+        "model": "comment"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "shop",
+        "model": "ticket"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "shop",
+        "model": "ticketresponse"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "account",
+        "model": "usershop"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "cart",
+        "model": "cart"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "cart",
+        "model": "cartitem"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "orders",
+        "model": "orders"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "orders",
+        "model": "orderitem"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "orders",
+        "model": "discountpercentage"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "crontabschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "intervalschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "periodictask"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "periodictasks"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "solarschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 23,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "clockedschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 24,
+    "fields": {
+        "app_label": "django_celery_results",
+        "model": "taskresult"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 25,
+    "fields": {
+        "app_label": "django_celery_results",
+        "model": "chordcounter"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 26,
+    "fields": {
+        "app_label": "django_celery_results",
+        "model": "groupresult"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "0yur1y1a823pgttd1rbecploiabqug72",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSE8BVy67zeQgRmkaiAp7cr479qkC93ec859sQjbWuM2aIkzsgvT7PS7JcgPajvAO7Rb57m3dZkT3xV-0MGnjvS8Hu7fQYVRv7USDgMqqZMoSWTrwRJJpwwBnY2SpUilQxbOYw5Gm2CxoDcSbUrSW8XeH925N50:1uKHWD:FZtlS75YKs0FfIKOsk_awMfUr8tCevY48q4HP8tqGc8",
+        "expire_date": "2025-05-28T15:29:13.769Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2udl4xt0weu26snunf1kdrclygyjz2df",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-QkxJzxmiXe8uDiBbipMKcXeIlALaNzPvpUZYlzKunedxInVWVh1-N4T84LoBukO9NZ1bXeYJ9abonXZ9bcTPy-7-HRTo5VtLiJFRLLMkHBwSUzrZYAiciAfyLoZM0Zosg_NkwHrkZKIRSOnIqN4fFIk46A:1uHfW5:7KfSR2NyFQHeDkVEWtBy8k7dWcQ0IrHJKYhdO9M-stI",
+        "expire_date": "2025-06-04T09:13:37.678Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9vw3bhfgqiz5yrrdhg50vfbe3ccmjfrn",
+    "fields": {
+        "session_data": ".eJwVjDsOgCAQBe_yaosVwQ-XMQQw0gBhjZ8Y7y5MN1PMi9OXsAVrjpDi6sxhoF_kPUUPDVp6sczTqOSADja5FmdBw1Q1G-YrFVeTahARvg4re-Y283cO5YGWRN8Pn8MftQ:1uKFwH:ClqlRw_x5fwUfxzyUF4Bny7G73mJrIUn6gNyPKSPu-8",
+        "expire_date": "2025-05-28T12:38:01.130Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "fiugc02uvagbu6f2k2s18jdo841ouuug",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSE8BVy67zeQgRmkaiAp7cr479qkC93ec859sQjbWuM2aIkzsgvT7PS7JcgPajvAO7Rb57m3dZkT3xV-0MGnjvS8Hu7fQYVRv7USDgMqqZMoSWTrwRJJpwwBnY2SpUilQxbOYw5Gm2CxoDcSbUrSW8XeH925N50:1uKMo2:7kOMq5vN4raHFbpDS0HWLit92qioXkPe2Z93Tvs5gO4",
+        "expire_date": "2025-05-28T21:07:58.637Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "odkwzmn8agppseh0k4ax2sga5tmj6v9l",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSE8BVy67zeQgRmkaiAp7cr479qkC93ec859sQjbWuM2aIkzsgvT7PS7JcgPajvAO7Rb57m3dZkT3xV-0MGnjvS8Hu7fQYVRv7USDgMqqZMoSWTrwRJJpwwBnY2SpUilQxbOYw5Gm2CxoDcSbUrSW8XeH925N50:1uKdID:uU4jYN59sXDSxPui-Gt9iuD7Vn6QesG5Sa4YiDQCZw4",
+        "expire_date": "2025-05-29T14:44:13.782Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "u6led9xshiduusrelis9iv5s5nq1ufgk",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSE8BVy67zeQgRmkaiAp7cr479qkC93ec859sQjbWuM2aIkzsgvT7PS7JcgPajvAO7Rb57m3dZkT3xV-0MGnjvS8Hu7fQYVRv7USDgMqqZMoSWTrwRJJpwwBnY2SpUilQxbOYw5Gm2CxoDcSbUrSW8XeH925N50:1uKKjP:wcIBNQrZTu8YxjPWVSxSOYSZDIjWNFz2QfWsATy8eGI",
+        "expire_date": "2025-05-28T18:55:03.127Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ve4y2mb2gdwbmjg19br4ql5n1kjolb3k",
+    "fields": {
+        "session_data": ".eJwVjDsOgCAQBe_yaopVEZTLGAIYaYCwxk-Md1emmynmwRFqXKOze8xp8Xa3MA_KllOAAc1dP09ajXKAgMu-xUFLqX4tlvnM1f9pbBARXoGFA3ObhavEesNIovcDoIcfuQ:1uKCt7:kvbrX30xjUUarWaabuUc82vJbVMy65SeaTrjjkF93O0",
+        "expire_date": "2025-05-28T09:22:33.352Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zki1yezw2q5rzzin75q8x4bbltnxsa0b",
+    "fields": {
+        "session_data": "eyJfc2Vzc2lvbl9leHBpcnkiOjQwMDB9:1uKHW9:OU-YXHEwwormG-YQoiQjboI-DaiYGRsJTd0OfT7nJyc",
+        "expire_date": "2025-05-28T15:19:09.110Z"
+    }
+},
+{
+    "model": "shop.category",
+    "pk": 1,
+    "fields": {
+        "name": "کیک و کلوچه",
+        "slug": "o-loh"
+    }
+},
+{
+    "model": "shop.category",
+    "pk": 2,
+    "fields": {
+        "name": "نوشیدنی",
+        "slug": "noshdn"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 1,
+    "fields": {
+        "category": 1,
+        "name": "کلوچه سیمرغ",
+        "slug": "loh-smrgh",
+        "description": "<p>\r\n<audio class=\"audio-for-speech\" src=\"\">&nbsp;</audio>\r\n</p>\r\n\r\n<div class=\"blue hidden_translate sm-root translate translate-tooltip-mtz\">\r\n<div class=\"header-wrapper\">\r\n<div class=\"header-controls\">&nbsp;</div>\r\n\r\n<div class=\"header-title\">translator</div>\r\n\r\n<div class=\"translate-icons\"><img class=\"from\" src=\"\" /> <img class=\"translate-arrow\" src=\"chrome-extension://bebmphofpgkhclocdbgomhnjcpelbenh/images/right-arrow.png\" />\r\n<div class=\"translate_to_dropdown\"><button aria-expanded=\"false\" class=\"dropbtn dropdown-toggle\" id=\"dropdownMenuButton1\" type=\"button\"></button>\r\n\r\n<ul class=\"blue dropdown-content-wrapper languageSelector\">\r\n\t<li><a class=\"dropdown-item\" data-lang=\"af\">Afrikaans</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"sq\">Albanian - shqipe</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ar\">Arabic - &lrm;‫العربية‬&lrm;</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"hy\">Armenian - Հայերէն</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"az\">Azerbaijani - azərbaycanca</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"eu\">Basque - euskara</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"be\">Belarusian - беларуская</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"bn\">Bengali - বাংলা</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"bg\">Bulgarian - български</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ca\">Catalan - catal&agrave;</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"zh-CN\">Chinese - 中文（简体中文）</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"zh-TW\">Chinese - 中文 (繁體中文)</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"hr\">Croatian - hrvatski</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"cs\">Czech - če&scaron;tina</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"da\">Danish - dansk</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"nl\">Dutch - Nederlands</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"en\">English</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"eo\">Esperanto - esperanto</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"et\">Estonian - eesti</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"tl\">Filipino</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"fi\">Finnish - suomi</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"fr\">French - fran&ccedil;ais</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"gl\">Galician - galego</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ka\">Georgian - ქართული</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"de\">German - Deutsch</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"el\">Greek - &Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"gu\">Gujarati - ગુજરાતી</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ht\">Haitian Creole - krey&ograve;l ayisyen</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"iw\">Hebrew - &lrm;‫עברית‬&lrm;</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"hi\">Hindi - हिन्दी</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"hu\">Hungarian - magyar</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"is\">Icelandic - &iacute;slenska</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"id\">Indonesian - Bahasa Indonesia</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ga\">Irish - Gaeilge</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"it\">Italian - italiano</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ja\">Japanese - 日本語</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"kn\">Kannada - ಕನ್ನಡ</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ko\">Korean - 한국어</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"la\">Latin - Lingua Latina</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"lv\">Latvian - latvie&scaron;u</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"lt\">Lithuanian - lietuvių</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"mk\">Macedonian - македонски</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ms\">Malay - Bahasa Melayu</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"mt\">Maltese - Malti</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"no\">Norwegian - norsk</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"fa\">Persian - &lrm;‫فارسی‬&lrm;</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"pl\">Polish - polski</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"pt\">Portuguese - portugu&ecirc;s</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ro\">Romanian - rom&acirc;nă</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ru\">Russian - русский</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"sr\">Serbian - Српски</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"sk\">Slovak - slovenčina</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"sl\">Slovenian - sloven&scaron;čina</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"es\">Spanish - espa&ntilde;ol</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"sw\">Swahili - Kiswahili</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"sv\">Swedish - svenska</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ta\">Tamil - தமிழ்</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"te\">Telugu - తెలుగు</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"th\">Thai - ไทย</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"tr\">Turkish - T&uuml;rk&ccedil;e</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"uk\">Ukrainian - українська</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ur\">Urdu - &lrm;‫اردو‬&lrm;</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"vi\">Vietnamese - Tiếng Việt</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"cy\">Welsh - Cymraeg</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"yi\">Yiddish - יידיש</a></li>\r\n</ul>\r\n</div>\r\n</div>\r\n</div>\r\n\r\n<div class=\"translated-text\">\r\n<div class=\"words\" id=\"translator-words\">&nbsp;</div>\r\n\r\n<div class=\"blue sentences\">&nbsp;</div>\r\n</div>\r\n\r\n<div class=\"trans_controls\">\r\n<div class=\"double_click trans_controls__control-wrapper\">\r\n<div class=\"trans_controls__inner-circle\">&nbsp;</div>\r\n<span class=\"trans_controls__description\">Double-click </span></div>\r\n\r\n<div class=\"selection trans_controls__control-wrapper\">\r\n<div class=\"trans_controls__inner-circle\">&nbsp;</div>\r\n<span class=\"trans_controls__description\">Select to translate </span></div>\r\n</div>\r\n</div>\r\n\r\n<p>&nbsp;</p>",
+        "weight": 120,
+        "quantity": 35,
+        "price": 325,
+        "discount_percent": 0,
+        "inventory": 30,
+        "created": "2025-05-28T13:56:51.530Z",
+        "updated": "2025-05-28T13:56:51.532Z"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 2,
+    "fields": {
+        "category": 2,
+        "name": "شیرموز",
+        "slug": "shrmoz",
+        "description": "<p>\r\n<audio class=\"audio-for-speech\" src=\"\">&nbsp;</audio>\r\n</p>\r\n\r\n<div class=\"blue hidden_translate sm-root translate translate-tooltip-mtz\">\r\n<div class=\"header-wrapper\">\r\n<div class=\"header-controls\">&nbsp;</div>\r\n\r\n<div class=\"header-title\">translator</div>\r\n\r\n<div class=\"translate-icons\"><img class=\"from\" src=\"\" /> <img class=\"translate-arrow\" src=\"chrome-extension://bebmphofpgkhclocdbgomhnjcpelbenh/images/right-arrow.png\" />\r\n<div class=\"translate_to_dropdown\"><button aria-expanded=\"false\" class=\"dropbtn dropdown-toggle\" id=\"dropdownMenuButton1\" type=\"button\"></button>\r\n\r\n<ul class=\"blue dropdown-content-wrapper languageSelector\">\r\n\t<li><a class=\"dropdown-item\" data-lang=\"af\">Afrikaans</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"sq\">Albanian - shqipe</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ar\">Arabic - &lrm;‫العربية‬&lrm;</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"hy\">Armenian - Հայերէն</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"az\">Azerbaijani - azərbaycanca</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"eu\">Basque - euskara</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"be\">Belarusian - беларуская</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"bn\">Bengali - বাংলা</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"bg\">Bulgarian - български</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ca\">Catalan - catal&agrave;</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"zh-CN\">Chinese - 中文（简体中文）</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"zh-TW\">Chinese - 中文 (繁體中文)</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"hr\">Croatian - hrvatski</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"cs\">Czech - če&scaron;tina</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"da\">Danish - dansk</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"nl\">Dutch - Nederlands</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"en\">English</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"eo\">Esperanto - esperanto</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"et\">Estonian - eesti</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"tl\">Filipino</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"fi\">Finnish - suomi</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"fr\">French - fran&ccedil;ais</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"gl\">Galician - galego</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ka\">Georgian - ქართული</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"de\">German - Deutsch</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"el\">Greek - &Epsilon;&lambda;&lambda;&eta;&nu;&iota;&kappa;ά</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"gu\">Gujarati - ગુજરાતી</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ht\">Haitian Creole - krey&ograve;l ayisyen</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"iw\">Hebrew - &lrm;‫עברית‬&lrm;</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"hi\">Hindi - हिन्दी</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"hu\">Hungarian - magyar</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"is\">Icelandic - &iacute;slenska</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"id\">Indonesian - Bahasa Indonesia</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ga\">Irish - Gaeilge</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"it\">Italian - italiano</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ja\">Japanese - 日本語</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"kn\">Kannada - ಕನ್ನಡ</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ko\">Korean - 한국어</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"la\">Latin - Lingua Latina</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"lv\">Latvian - latvie&scaron;u</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"lt\">Lithuanian - lietuvių</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"mk\">Macedonian - македонски</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ms\">Malay - Bahasa Melayu</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"mt\">Maltese - Malti</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"no\">Norwegian - norsk</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"fa\">Persian - &lrm;‫فارسی‬&lrm;</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"pl\">Polish - polski</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"pt\">Portuguese - portugu&ecirc;s</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ro\">Romanian - rom&acirc;nă</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ru\">Russian - русский</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"sr\">Serbian - Српски</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"sk\">Slovak - slovenčina</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"sl\">Slovenian - sloven&scaron;čina</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"es\">Spanish - espa&ntilde;ol</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"sw\">Swahili - Kiswahili</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"sv\">Swedish - svenska</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ta\">Tamil - தமிழ்</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"te\">Telugu - తెలుగు</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"th\">Thai - ไทย</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"tr\">Turkish - T&uuml;rk&ccedil;e</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"uk\">Ukrainian - українська</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"ur\">Urdu - &lrm;‫اردو‬&lrm;</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"vi\">Vietnamese - Tiếng Việt</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"cy\">Welsh - Cymraeg</a></li>\r\n\t<li><a class=\"dropdown-item\" data-lang=\"yi\">Yiddish - יידיש</a></li>\r\n</ul>\r\n</div>\r\n</div>\r\n</div>\r\n\r\n<div class=\"translated-text\">\r\n<div class=\"words\" id=\"translator-words\">&nbsp;</div>\r\n\r\n<div class=\"blue sentences\">&nbsp;</div>\r\n</div>\r\n\r\n<div class=\"trans_controls\">\r\n<div class=\"double_click trans_controls__control-wrapper\">\r\n<div class=\"trans_controls__inner-circle\">&nbsp;</div>\r\n<span class=\"trans_controls__description\">Double-click </span></div>\r\n\r\n<div class=\"selection trans_controls__control-wrapper\">\r\n<div class=\"trans_controls__inner-circle\">&nbsp;</div>\r\n<span class=\"trans_controls__description\">Select to translate </span></div>\r\n</div>\r\n</div>\r\n\r\n<p>&nbsp;</p>",
+        "weight": 180,
+        "quantity": 50,
+        "price": 220,
+        "discount_percent": 0,
+        "inventory": 55,
+        "created": "2025-05-28T13:58:37.067Z",
+        "updated": "2025-05-28T13:58:37.067Z"
+    }
+},
+{
+    "model": "shop.image",
+    "pk": 1,
+    "fields": {
+        "product": 1,
+        "name": null,
+        "description": "",
+        "image_field": "product_images/2025/05/28/download_2.jpeg",
+        "created": "2025-05-28T13:56:52.599Z"
+    }
+},
+{
+    "model": "shop.image",
+    "pk": 2,
+    "fields": {
+        "product": 1,
+        "name": null,
+        "description": "",
+        "image_field": "product_images/2025/05/28/download_3.jpeg",
+        "created": "2025-05-28T13:56:52.882Z"
+    }
+},
+{
+    "model": "shop.image",
+    "pk": 3,
+    "fields": {
+        "product": 2,
+        "name": null,
+        "description": "",
+        "image_field": "product_images/2025/05/28/download_8.jpeg",
+        "created": "2025-05-28T13:58:37.463Z"
+    }
+},
+{
+    "model": "shop.image",
+    "pk": 4,
+    "fields": {
+        "product": 2,
+        "name": null,
+        "description": "",
+        "image_field": "product_images/2025/05/28/download_7.jpeg",
+        "created": "2025-05-28T13:58:37.681Z"
+    }
+},
+{
+    "model": "account.usershop",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$kuGAc7yyCKTM5I90QwQx9B$DztvFowEOd35gFg9LoEhytdwN+5JNBcBOhWGXnK1id0=",
+        "last_login": "2025-05-21T09:13:37.674Z",
+        "first_name": "",
+        "last_name": "",
+        "phone": "09109876543",
+        "email": "",
+        "address": "",
+        "image_field": "",
+        "is_superuser": true,
+        "is_admin": true,
+        "is_active": true,
+        "is_staff": true,
+        "created": "2025-05-21T09:12:52.923Z",
+        "updated": "2025-05-21T09:12:52.923Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.usershop",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$eLn1f1b4HnsarImFuMhppm$WxWtTIxC5gPV6BkZ4dsRazQLUdEsTiBPIoaBxrMmpm0=",
+        "last_login": null,
+        "first_name": "neda",
+        "last_name": "remezani",
+        "phone": "09129876543",
+        "email": "neda@gmail.com",
+        "address": "hgjhjlhhj",
+        "image_field": "",
+        "is_superuser": false,
+        "is_admin": false,
+        "is_active": true,
+        "is_staff": true,
+        "created": "2025-05-28T12:42:51.084Z",
+        "updated": "2025-05-28T14:09:54.261Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.usershop",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$KppPo9PV3QIVv8lAz5YcMw$QCHrgdGU/bCooi0fETcQLNjl4dc/iyVv/HKa+8bJfHQ=",
+        "last_login": "2025-05-29T12:41:18.973Z",
+        "first_name": "",
+        "last_name": "",
+        "phone": "09991234567",
+        "email": "",
+        "address": "",
+        "image_field": "",
+        "is_superuser": true,
+        "is_admin": true,
+        "is_active": true,
+        "is_staff": true,
+        "created": "2025-05-28T13:42:14.884Z",
+        "updated": "2025-05-28T13:42:14.885Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "cart.cart",
+    "pk": 1,
+    "fields": {
+        "user": 2,
+        "created": "2025-05-28T14:11:53.579Z",
+        "updated": "2025-05-28T14:11:53.579Z"
+    }
+},
+{
+    "model": "cart.cartitem",
+    "pk": 3,
+    "fields": {
+        "cart": 1,
+        "product": 2,
+        "quantity": 3,
+        "added_to_cart": "2025-05-29T13:01:25.555Z",
+        "status": "pending",
+        "created": "2025-05-29T13:01:25.555Z",
+        "updated": "2025-05-29T13:01:25.560Z"
+    }
+},
+{
+    "model": "cart.cartitem",
+    "pk": 4,
+    "fields": {
+        "cart": 1,
+        "product": 1,
+        "quantity": 5,
+        "added_to_cart": "2025-05-29T13:01:45.731Z",
+        "status": "pending",
+        "created": "2025-05-29T13:01:45.731Z",
+        "updated": "2025-05-29T13:01:45.736Z"
+    }
+},
+{
+    "model": "orders.orders",
+    "pk": 6,
+    "fields": {
+        "buyer": 2,
+        "payment": false,
+        "discount": null,
+        "created": "2025-05-29T13:26:22.289Z",
+        "updated": "2025-05-29T13:26:22.289Z"
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 1,
+    "fields": {
+        "order": 6,
+        "product": 1,
+        "quantity": 5,
+        "price": 1625,
+        "created": "2025-05-29T13:26:22.299Z"
+    }
+},
+{
+    "model": "orders.orderitem",
+    "pk": 2,
+    "fields": {
+        "order": 6,
+        "product": 2,
+        "quantity": 3,
+        "price": 660,
+        "created": "2025-05-29T13:26:22.320Z"
+    }
+},
+{
+    "model": "django_celery_beat.intervalschedule",
+    "pk": 1,
+    "fields": {
+        "every": 1,
+        "period": "minutes"
+    }
+},
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 1,
+    "fields": {
+        "minute": "0",
+        "hour": "4",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "day_of_week": "*",
+        "timezone": "UTC"
+    }
+},
+{
+    "model": "django_celery_beat.periodictasks",
+    "pk": 1,
+    "fields": {
+        "last_update": "2025-05-29T12:55:59.335Z"
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 1,
+    "fields": {
+        "name": "remove items cart",
+        "task": "cart.tasks.remove_expires_cart_items",
+        "interval": 1,
+        "crontab": null,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": null,
+        "one_off": false,
+        "start_time": "2025-05-29T12:49:56Z",
+        "enabled": true,
+        "last_run_at": "2025-05-29T12:55:59.357Z",
+        "total_run_count": 14,
+        "date_changed": "2025-05-29T12:55:59.410Z",
+        "description": ""
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 2,
+    "fields": {
+        "name": "celery.backend_cleanup",
+        "task": "celery.backend_cleanup",
+        "interval": null,
+        "crontab": 1,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": 43200,
+        "one_off": false,
+        "start_time": "2025-05-28T17:34:59Z",
+        "enabled": true,
+        "last_run_at": "2025-05-29T12:55:59.422Z",
+        "total_run_count": 2,
+        "date_changed": "2025-05-29T12:56:44.080Z",
+        "description": ""
+    }
+}
+]
