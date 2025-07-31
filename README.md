@@ -43,7 +43,7 @@ API RESTful: طراحی شده بر اساس اصول REST برای سهولت �
 ۱. کلون کردن ریپازیتوری
 ابتدا پروژه را از گیت‌هاب کلون کنید:
 
-git clone https://github.com/A-ramezani1300/MarketShop_RestApi-Project.git
+git clone https://github.com/A-ramezani1300/MarketShop_RestApi.git
 cd MarketShop_RestApi
 
 
